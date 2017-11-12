@@ -114,7 +114,7 @@
             menuBtnX = CGRectGetMaxX([self.scrollView.subviews lastObject].frame);
         }
         
-        CGRect btnRect = [self.menuArray[i] boundingRectWithSize:CGSizeMake(MAXFLOAT, 0) options:NSStringDrawingUsesLineFragmentOrigin attributes: @{NSFontAttributeName : btnFont} context:nil];
+//        CGRect btnRect = [self.menuArray[i] boundingRectWithSize:CGSizeMake(MAXFLOAT, 0) options:NSStringDrawingUsesLineFragmentOrigin attributes: @{NSFontAttributeName : btnFont} context:nil];
         
         CGFloat btnW = 0;
         if (self.menuArray.count > 6) {

@@ -41,6 +41,8 @@
 }
 
 - (void)setupHeaderView {
+    //如果 headerview 发生偏移请使用这行代码
+//    self.automaticallyAdjustsScrollViewInsets = NO;
     HeaderView *headerView = [[HeaderView alloc] initWithFrame:CGRectMake(0, 20, [UIScreen mainScreen].bounds.size.width, 44)];
     headerView.menuArray = [NSMutableArray arrayWithArray:@[@"推荐",@"热点",@"科技",@"体育",@"视频",@"要闻",@"时政"]];
     headerView.delegate = self;
